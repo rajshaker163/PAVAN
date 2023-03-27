@@ -2,6 +2,7 @@ package com.hrms.lib;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -13,9 +14,13 @@ public class General extends Global {
 	@BeforeClass
 	public void open()
 	{
-	System.setProperty("webdriver Firefox","D:\\driver.geckodriver.exe");
-	driver= new FirefoxDriver();
-	driver.get(url);
+		
+			System.setProperty("webdriver.chrome.driver","C:\\GD\\ch\\chromedriver.exe");
+					
+					ChromeOptions n=new ChromeOptions();
+					n.addArguments("--remote-allow-origins=*");
+					driver=new ChromeDriver(n);
+                    driver.get(url);
 	}
 	@AfterClass
 	public void close()

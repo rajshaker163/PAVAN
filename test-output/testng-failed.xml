@@ -3,11 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.TC002">
+      <class name="TestScripts.C0001">
         <methods>
-          <include name="tc002"/>
+          <include name="c0001"/>
+          <include name="feilds"/>
+          <include name="open"/>
         </methods>
-      </class> <!-- TestScripts.TC002 -->
+      </class> <!-- TestScripts.C0001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
