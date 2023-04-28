@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[opened]]>
+    </line>
+    <line>
+      <![CDATA[Registered]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-27T11:55:56Z" name="Default suite" finished-at="2023-03-27T11:57:08Z" duration-ms="72717">
+  <suite started-at="2023-04-28T15:06:31Z" name="Default suite" finished-at="2023-04-28T15:06:44Z" duration-ms="13790">
     <groups>
     </groups>
-    <test started-at="2023-03-27T11:55:56Z" name="Default test" finished-at="2023-03-27T11:57:08Z" duration-ms="72717">
-      <class name="TestScripts.C0001">
-        <test-method is-config="true" signature="open()[pri:0, instance:TestScripts.C0001@21337f7b]" started-at="2023-03-27T17:25:56Z" name="open" finished-at="2023-03-27T17:26:44Z" duration-ms="48320" status="PASS">
+    <test started-at="2023-04-28T15:06:31Z" name="Default test" finished-at="2023-04-28T15:06:44Z" duration-ms="13790">
+      <class name="TestScripts.Blaze001">
+        <test-method signature="blaze001()[pri:0, instance:TestScripts.Blaze001@12359a82]" started-at="2023-04-28T20:36:31Z" name="blaze001" finished-at="2023-04-28T20:36:44Z" duration-ms="13722" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[opened]]>
+            </line>
+            <line>
+              <![CDATA[Registered]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method signature="c0001()[pri:0, instance:TestScripts.C0001@21337f7b]" started-at="2023-03-27T17:26:44Z" name="c0001" finished-at="2023-03-27T17:27:07Z" duration-ms="22688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c0001 -->
-        <test-method is-config="true" signature="feilds()[pri:0, instance:TestScripts.C0001@21337f7b]" started-at="2023-03-27T17:27:07Z" name="feilds" finished-at="2023-03-27T17:27:08Z" duration-ms="1647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feilds -->
-      </class> <!-- TestScripts.C0001 -->
+        </test-method> <!-- blaze001 -->
+      </class> <!-- TestScripts.Blaze001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
